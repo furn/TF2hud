@@ -487,7 +487,7 @@ event HudSpyDisguiseHide
 
 event HudSpyDisguiseFadeIn
 {
-    Animate PlayerStatusSpyImage            Alpha       "0"           Linear 0.9 0.1
+    Animate PlayerStatusSpyImage            Alpha       "255"           Linear 0.9 0.1
     Animate PlayerStatusClassImage          Alpha       "255"           Linear 0.0 0.0  
     Animate classmodelpanel          Position       "144 r143"           Linear 0.0 0.0  
 }

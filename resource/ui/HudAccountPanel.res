@@ -5,11 +5,11 @@
 		"delta_item_x"			"400"
 		"delta_item_start_y"	"375"
 		"delta_item_end_y"		"365"
-		"PositiveColor"			"Garm3nGreen"
-		"NegativeColor"			"Garm3nRed"
+		"PositiveColor"			"0 221 255 255"
+		"NegativeColor"			"244 85 0 255"
 		"zpos"			"-1"
 		"delta_lifetime"		"0"
-		"delta_item_font"		"Garm3n11"
+		"delta_item_font"		"Museo16"
 		"textAlignment"	"center"
 	}
 	
