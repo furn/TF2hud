@@ -15,3 +15,5 @@ Included crosshairs:
 * Garm3n crosshairs
 
 The current release features a fixed winpanel.res for servers with supplemental stats (avatars + killstreaks), and a slightly different font for the menu. 
+
+If you prefer the old version, use the TF2Hud-Alternate branch.
