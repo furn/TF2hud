@@ -14,6 +14,10 @@ Included crosshairs:
 * Fog Crosshairs
 * Garm3n crosshairs
 
+This HUD is intended for 1920x1080. Your results may vary for other resolutions.
+
+------
+
 The current release features a fixed winpanel.res for servers with supplemental stats (avatars + killstreaks), and a slightly different font for the menu. 
 
 03/06/2015 - Fixed scoreboard for the Gun Mettle Update.
