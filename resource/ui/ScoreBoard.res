@@ -10,6 +10,8 @@
 		"tall"				"480"
 		"visible"			"1"
 		"enabled"			"1"
+		"tabPosition"		"0"
+		"medal_width"		"9"
 		"avatar_width"		"57"
 		"name_width"		"111"
 		"name_width_minmode"	"80"
