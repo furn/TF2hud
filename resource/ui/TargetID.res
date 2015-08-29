@@ -85,7 +85,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"alpha"			"255"
-		"fillcolor"		"234 234 234 255"
+		"fillcolor"		"0 0 0 150"
 		"PaintBackgroundType"	"0"
 	}
 	"TargetNameLabel"
