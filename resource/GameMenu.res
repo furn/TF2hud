@@ -3,7 +3,7 @@
 	"Credits"
 	{
 		"label" "BY QUARTZ AND SIR VILLETA
-				       Edited By Mangachu"
+				       Maintained by Aegis"
 		"command" "QUICKPLAY"
 	}
 	"QuickplayButton"
