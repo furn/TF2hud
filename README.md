@@ -24,4 +24,6 @@ The current release features a fixed winpanel.res for servers with supplemental 
 
 28/08/2015 - Fixed an issue with TargetID.
 
-01/01/2015 - Fixed Contracts.
+01/01/2016 - Fixed Contracts.
+
+07/03/2016 - Updated HUD for Matchmaking.

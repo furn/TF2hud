@@ -69,8 +69,8 @@
 	}
 	"ServerButton6vs6"
 	{
-		"label" "Minmode Enabled"
-		"command" "engine cl_hud_minmode 1"
+		"label" "MatchMaking"
+		"command" "ladder_ui_show"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "0"
 	}
