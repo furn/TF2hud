@@ -198,6 +198,16 @@ event KeyHintMessageHide
     Animate HudHintKeyDisplay Alpha 0 Linear 0.0 0.5
 }
 
+event WinPanel_CompPos
+{
+Animate WinPanel ypos 115 Linear 0 0
+}
+
+event WinPanel_NormalPos
+{
+Animate WinPanel ypos 5 Linear 0 0
+}
+
 //===========================================
 
 //Health Bonus Pulse
