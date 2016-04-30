@@ -1,3 +1,6 @@
+# A Note To Aegis 
+I will finish this hud later today
+
 # "Ace" hud
 Re-edit of Hudas Iscariote with several modifications for Team Fortress 2. Original edit by Mangachu.
 
