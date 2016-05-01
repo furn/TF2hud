@@ -1453,10 +1453,10 @@
 		}
 	}
 
-	"ServerButton6vs6"
+	"Matchmaking"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"ServerButton6vs6"
+		"fieldname"		"Matchmaking"
 		"xpos"			"35"
 		"ypos"			"324"
 		"zpos"			"11"
@@ -1521,9 +1521,9 @@
 		"xpos"			"35"
 		"ypos"			"341"
 		"zpos"			"11"
-		"wide"			"146"
-		"tall"			"20"
-		"visible"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"SubButton"
 		{
@@ -2456,6 +2456,56 @@
 				"scaleImage"	"1"
 			}		
 		}
+	}
+	
+	"MinModeToggle"
+	{
+		"ControlName"				"CExImageButton"
+		"fieldName"					"ScoreboardToggle"
+		"xpos"						"26"
+		"ypos"						"341"
+		"zpos"						"11"
+		"wide"						"146"
+		"tall"						"20"
+		"autoResize"				"0"
+		"pinCorner"					"3"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					"Toggle MinMode"
+		"font"						"Museo12"
+		"textAlignment"				"center"
+		"textinsetx"				"35"
+		"use_proportional_insets" 	"1"
+		"dulltext"					"0"
+		"brighttext"				"0"
+		"default"					"1"
+		"paintbackground"			"0"
+		"Command"					"engine incrementvar cl_hud_minmode 0 1 1"
+		
+		"FgColor" "234 234 234 255"			
+		"defaultFgColor_override" "234 234 234 255"
+		"armedFgColor_override" "0 221 255 255"
+		"depressedFgColor_override" "234 234 234 255"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"image_drawcolor"	"178 82 22 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"16"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+		}			
 	}
 
 	"QuitButton"

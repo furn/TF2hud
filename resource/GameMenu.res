@@ -67,7 +67,7 @@
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "0"
 	}
-	"ServerButton6vs6"
+	"Matchmaking"
 	{
 		"label" "MatchMaking"
 		"command" "ladder_ui_show"
