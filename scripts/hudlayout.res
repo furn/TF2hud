@@ -677,7 +677,7 @@
         "fieldName" "HudRoundTimer"
         "xpos"  "c-20"
         "ypos"  "440"
-        "wide"  "f0"
+        "wide"  "120"
         "tall"  "40"
         "visible" "1"
         "enabled" "1"

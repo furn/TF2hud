@@ -206,7 +206,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}	
-
+//BGFrame wtf is this for
 	"BGFrame"
 	{
 		"ControlName"		"EditablePanel"
@@ -214,8 +214,8 @@
 		"xpos"				"cs-0.5"
 		"ypos"				"-5"
 		"zpos"				"0"
-		"wide"				"365"
-		"tall"				"28"
+		"wide"				"0"	//365
+		"tall"				"0"	//28
 
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
