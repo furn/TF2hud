@@ -42,10 +42,11 @@
 		{
 			"xpos"							"cs-0.5"
 			"ypos"							"0"
+			"zpos"							"1"
 			"wide"							"f0"
 			"tall"							"480"
 
-			"team1_player_base_y"			"75"
+			"team1_player_base_y"			"45"
 			"team2_player_base_y"			"66"
 			"team2_player_base_offset_x"	"5"
 		}
@@ -69,7 +70,7 @@
 			"fieldName"		"ModeImage"
 			"xpos"			"cs-0.5"
 			"ypos"			"35"
-			"zpos"			"0"
+			"zpos"			"2"
 			"wide"			"60"
 			"tall"			"60"
 			"autoResize"	"0"
@@ -958,20 +959,21 @@
 			"visible"		"0"
 		}
 	}
+	
 	"TournamentInstructionsLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"Medium8"
-		"fgcolor"		"Garm3nWhite"
+		"font"			"Museo16"
+		"fgcolor"		"TanLight"
 		"xpos"			"0"
 		"ypos"			"17"
-		"wide"			"250"
-		"tall"			"12"
+		"wide"			"190"
+		"tall"			"15"
 		"zpos"			"1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%readylabel%"
@@ -979,31 +981,31 @@
 
 		if_mvm
 		{
-			"font"			"ChatFont"
+			"font"			"Museo16"
 			"xpos"			"155"
 			"ypos"			"100"
 			"wide"			"190"
-			"tall"			"20"
+			"tall"			"15"
 			"zpos"			"3"
 		}
 	
 		if_competitive
 		{
-			"font"			"ChatFont"
+			"font"			"Museo16"
 			"xpos"			"cs-0.5"
 			"ypos"			"110"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"15"
 			"zpos"			"3"
 		}
 
 		if_readymode
 		{
-			"font"			"ChatFont"
+			"font"			"Museo16"
 			"xpos"			"225"
 			"ypos"			"110"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"15"
 			"zpos"			"3"
 		}
 	}
@@ -1012,11 +1014,11 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabelShadow"
-		"font"			"TFFontSmall"
+		"font"			"Museo16"
 		"xpos"			"0"
 		"ypos"			"54"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"190"
+		"tall"			"15"
 		"zpos"			"2"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -1028,7 +1030,7 @@
 		
 		if_mvm
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"Museo16"
 			"xpos"			"156"
 			"ypos"			"106"
 			"wide"			"190"
@@ -1039,22 +1041,22 @@
 		
 		if_competitive
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"Museo16"
 			"xpos"			"cs-0.5"
 			"ypos"			"111"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"15"
 			"visible"		"1"
-			"fgcolor"		"Black"
+			"fgcolor"		"black"
 		}
 
 		if_readymode
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"Museo16"
 			"xpos"			"226"
 			"ypos"			"111"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"15"
 			"visible"		"1"
 			"fgcolor"		"Black"
 		}
@@ -1111,8 +1113,8 @@
 		"xpos"			"238"
 		"ypos"			"r30"
 		"zpos"			"-1"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"32"
+		"tall"			"32"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -1122,8 +1124,8 @@
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
 		
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 		
 		if_competitive
 		{
@@ -1142,18 +1144,18 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"Garm3n10"
+		"font"			"Museo20"
 		"xpos"			"238"
 		"ypos"			"r30"
-		"wide"			"26"
-		"tall"			"25"
+		"wide"			"40"
+		"tall"			"32"
 		"zpos"			"1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor"		"Garm3nWhite"
+		"fgcolor"		"TanLight"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
 		
@@ -1162,7 +1164,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.1"
 			"fgcolor"		"TanLight"
-			"font"			"HudFontGiant"
+			"font"			"Museo20"
 		}
 
 		if_readymode
@@ -1176,11 +1178,11 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"HudFontGiant"
+		"font"			"Museo20"
 		"xpos"			"231"
 		"ypos"			"r54"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"40"
+		"tall"			"32"
 		"zpos"			"1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -1195,7 +1197,7 @@
 		{
 			"xpos"			"cs-0.48"
 			"ypos"			"cs-0.08"
-			"font"			"HudFontGiant"
+			"font"			"Museo20"
 		}
 
 		if_readymode

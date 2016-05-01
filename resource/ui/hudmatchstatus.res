@@ -272,8 +272,9 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"cs-0.5"
-				"ypos"			"12"
-				"tall"			"10"
+				"ypos"			"10"
+				"wide"			"80"
+				"tall"			"18"
 				"font"			"Museo16"
 			}
 		}	

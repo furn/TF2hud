@@ -18,6 +18,13 @@
 		
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
+		
+		"if_comp"
+		{
+			"wide"	"80"
+			"xpos"	"c-40"
+			"ypos"	"26"
+		}
 
 	}
 	"ShadedBar"
@@ -36,7 +43,13 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"32 32 32 255"
 		"PaintBackgroundType"	"0"
-
+		
+		"if_comp"
+		{
+			"wide"	"80"
+			"xpos"	"c-40"
+			"ypos"	"10"
+		}
 	}
 	"TimePanelProgressBar"
 	{
