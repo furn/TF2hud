@@ -564,7 +564,7 @@
 		"fieldName"		"QuestLogButton"
 		"xpos"			"c228"
 		"ypos"			"28"
-		"zpos"			"1"
+		"zpos"			"0"
 		"wide"			"32"
 		"tall"			"32"
 		"autoResize"	"0"

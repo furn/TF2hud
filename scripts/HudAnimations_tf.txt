@@ -1315,3 +1315,13 @@ Animate StatsLabelPanel ypos 75 Accel 0 0.1
 Animate BlueMedals ypos 75 Accel 0 0.1
 Animate RedMedals ypos 75 Accel 0 0.1
 }
+
+event WinPanel_CompPos
+{
+Animate WinPanel ypos 115 Linear 0 0
+}
+
+event WinPanel_NormalPos
+{
+Animate WinPanel ypos 215 Linear 0 0
+}

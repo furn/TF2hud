@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
-		"xpos"			"48"
+		"xpos"			"c-27"
 		"ypos"			"16"
 		"zpos"			"3"
 		"wide"			"56"
@@ -15,7 +15,7 @@
 		"scaleImage"		"1"
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
-			
+		
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
 
@@ -24,7 +24,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
-		"xpos"			"48"
+		"xpos"			"c-27"
 		"ypos"			"0"	[$WIN32]
 		"zpos"			"-2"
 		"wide"			"56"
@@ -66,10 +66,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"48"
+		"xpos"			"0"
 		"ypos"			"20"
 		"zpos"			"5"
-		"wide"			"56"
+		"wide"			"f0"
 		"tall"			"13"
 		"visible"		"0"
 		"enabled"		"1"
@@ -101,10 +101,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"15"
+		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"5"
-		"wide"			"123"
+		"wide"			"f0"
 		"tall"			"18"
 		"visible"		"0"
 		"enabled"		"1"
@@ -136,10 +136,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
-		"xpos"			"15"
+		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"5"
-		"wide"			"123"
+		"wide"			"f0"
 		"tall"			"18"
 		"visible"		"0"
 		"enabled"		"1"
@@ -171,10 +171,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"15"
+		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"5"
-		"wide"			"123"
+		"wide"			"f0"
 		"tall"			"18"
 		"visible"		"0"
 		"enabled"		"1"

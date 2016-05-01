@@ -677,7 +677,7 @@
         "fieldName" "HudRoundTimer"
         "xpos"  "c-20"
         "ypos"  "440"
-        "wide"  "120"
+        "wide"  "f0"
         "tall"  "40"
         "visible" "1"
         "enabled" "1"
@@ -1665,7 +1665,7 @@
         "tall"          "150"
     }
 	
-		"CTFKillStreakNotice"
+	"CTFKillStreakNotice"
 	{
 		"fieldName"		"CTFKillStreakNotice"
 		"xpos"			"0"			

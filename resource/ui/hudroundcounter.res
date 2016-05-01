@@ -75,7 +75,7 @@
 		"wide"			"40"
 		"tall"			"10"
 		"proportionaltoparent"	"1"
-		"fillcolor"				"ChillBlue"
+		"fillcolor"				"72 112 125 255"
 		"scaleimage"			"1"
 	}
 	
@@ -89,7 +89,7 @@
 		"wide"			"40"
 		"tall"			"10"
 		"proportionaltoparent"	"1"
-		"fillcolor"				"ChillDarkBlue"
+		"fillcolor"				"46 73 82 255"
 		"scaleimage"			"1"
 	}
 	
@@ -103,7 +103,7 @@
 		"wide"			"40"
 		"tall"			"10"
 		"proportionaltoparent"	"1"
-		"fillcolor"				"ChillRed"
+		"fillcolor"				"158 64 61 255"
 		"scaleimage"			"1"
 	}
 	
@@ -117,7 +117,7 @@
 		"wide"			"40"
 		"tall"			"10"
 		"proportionaltoparent"	"1"
-		"fillcolor"				"ChillDarkRed"
+		"fillcolor"				"102 48 46 255"
 		"scaleimage"			"1"
 	}
 }
