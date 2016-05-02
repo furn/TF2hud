@@ -467,11 +467,11 @@
 		}		
 	}
 	
-	"WatchStreamButton"
+		"WatchStreamButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
-		"xpos"			"r120"
+		"xpos"			"c188"
 		"ypos"			"28"
 		"zpos"			"1"
 		"wide"			"32"
@@ -544,7 +544,7 @@
 	{
 		"ControlName"	"CTFStreamListPanel"
 		"fieldName"		"StreamListPanel"
-		"xpos"			"r305"
+		"xpos"			"c5"
 		"ypos"			"65"
 		"zpos"			"1"
 		"wide"			"300"
@@ -562,7 +562,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"r80"
+		"xpos"			"c228"
 		"ypos"			"28"
 		"zpos"			"0"
 		"wide"			"32"
@@ -687,7 +687,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"r40"
+		"xpos"			"c267"
 		"ypos"			"28"
 		"zpos"			"1"
 		"wide"			"32"
