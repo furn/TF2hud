@@ -1,7 +1,9 @@
 # A Note To Aegis 
-Fix Winpanel BG
-Fix Koth Timer (and on matchmaking mode)
-More matchmaking fixes
+FIX WINPANEL
+FIND THE UPDATED MAINMENUOVERRIDE
+FIX COMPEDATIVE KOTH TIMER (FIND WERE KOTH TIMER BG ARE DEFINED)
+FIXED MATCHMAKING ANIMATIONS
+ADD "FUCK YOU MEDAWE" HITSOUND
 
 # "Ace" hud
 Re-edit of Hudas Iscariote with several modifications for Team Fortress 2. Original edit by Mangachu.
