@@ -1685,10 +1685,10 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"tabPosition"	"0"
-		"labelText"		"#TF_TeamCount"
+		"labelText"		""
 		"textAlignment"	"left"
 		"font"			"HudFontMediumSmallSecondary"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"0 0 0 0"
 	}
 	
 	"numScout" 

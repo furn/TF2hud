@@ -1,5 +1,7 @@
 # A Note To Aegis 
-Everything is fixed except I managed to break the koth timer
+Fix Winpanel BG
+Fix Koth Timer (and on matchmaking mode)
+More matchmaking fixes
 
 # "Ace" hud
 Re-edit of Hudas Iscariote with several modifications for Team Fortress 2. Original edit by Mangachu.
