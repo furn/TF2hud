@@ -27,3 +27,5 @@ The current release features a fixed winpanel.res for servers with supplemental 
 01/01/2016 - Fixed Contracts.
 
 07/03/2016 - Updated HUD for Matchmaking.
+
+03/05/2016 - Most issues fixed (Thank you to Winterzduck)

@@ -198,6 +198,16 @@ event KeyHintMessageHide
     Animate HudHintKeyDisplay Alpha 0 Linear 0.0 0.5
 }
 
+event WinPanel_CompPos
+{
+Animate WinPanel ypos 115 Linear 0 0
+}
+
+event WinPanel_NormalPos
+{
+Animate WinPanel ypos 5 Linear 0 0
+}
+
 //===========================================
 
 //Health Bonus Pulse
@@ -1304,4 +1314,14 @@ SetVisible	StatsLabelPanel	1	0
 Animate StatsLabelPanel ypos 75 Accel 0 0.1
 Animate BlueMedals ypos 75 Accel 0 0.1
 Animate RedMedals ypos 75 Accel 0 0.1
+}
+
+event WinPanel_CompPos
+{
+Animate WinPanel ypos 230 Linear 0 0
+}
+
+event WinPanel_NormalPos
+{
+Animate WinPanel ypos 230 Linear 0 0
 }
