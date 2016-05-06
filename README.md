@@ -1,10 +1,3 @@
-# A Note To Aegis 
-FIX WINPANEL
-FIND THE UPDATED MAINMENUOVERRIDE
-FIX COMPEDATIVE KOTH TIMER (FIND WERE KOTH TIMER BG ARE DEFINED)
-FIXED MATCHMAKING ANIMATIONS
-ADD "FUCK YOU MEDAWE" HITSOUND
-
 # "Ace" hud
 Re-edit of Hudas Iscariote with several modifications for Team Fortress 2. Original edit by Mangachu.
 
@@ -34,3 +27,5 @@ The current release features a fixed winpanel.res for servers with supplemental 
 01/01/2016 - Fixed Contracts.
 
 07/03/2016 - Updated HUD for Matchmaking.
+
+03/05/2016 - Most issues fixed (Thank you to Winterzduck)

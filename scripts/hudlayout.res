@@ -1159,13 +1159,13 @@
 
     WinPanel
     {
-        "fieldName"             "WinPanel"
-        "visible"               "1"
-        "enabled"               "1"
-        "xpos"                  "0"
-        "ypos"                  "5"
-        "wide"                  "f0"
-        "tall"                  "480"
+		"fieldName"				"WinPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"r165"
+		"wide"					"f0"
+		"tall"					"320"
     }
 
     ArenaWinPanel
@@ -1691,7 +1691,6 @@
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
-	
 
 	MatchSummary
 	{
@@ -1706,13 +1705,14 @@
 	
 	HudMatchStatus
 	{
- 		"fieldName"				"HudMatchStatus"
- 		"visible"				"1"
+		"fieldName"				"HudMatchStatus"
+		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"0"
-		"zpos"					"2"
+		"zpos"					"3"
 		"wide"					"f0"
-		"tall"					"480"
+		"tall"					"f0"
 	}
+
 }

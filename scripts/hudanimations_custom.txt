@@ -372,11 +372,11 @@ event FlagOutline
 //===========================================
 event WinPanel_CompPos
 {
-	Animate WinPanel ypos 115 Linear 0 0
+	Animate WinPanel ypos r165 Linear 0 0
 }
 
 event WinPanel_NormalPos
 {
-	Animate WinPanel ypos 275 Linear 0 0
+	Animate WinPanel ypos r165 Linear 0 0
 }
 	

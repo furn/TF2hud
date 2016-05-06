@@ -467,7 +467,7 @@
 		}		
 	}
 	
-		"WatchStreamButton"
+	"WatchStreamButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
@@ -634,7 +634,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"NotificationsContainer"
-			"xpos"			"rs1"
+			"xpos"			"r160"
 			"ypos"			"0"
 			"zpos"			"10"
 			"wide"			"16"
