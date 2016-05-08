@@ -1290,38 +1290,38 @@ SetVisible CountdownLabelShadow 1 0
 
 event HudTournament_ShowTimerDefault
 {
-Animate CountdownLabel ypos 425 Linear 0 0
-Animate CountdownLabelShadow ypos 425 Linear 0 0
+	Animate CountdownLabel ypos 425 Linear 0 0
+	Animate CountdownLabelShadow ypos 425 Linear 0 0
 
-SetVisible CountdownBG 1 0
-SetVisible CountdownLabel 1 0
-SetVisible CountdownLabelShadow 1 0
+	SetVisible CountdownBG 1 0
+	SetVisible CountdownLabel 1 0
+	SetVisible CountdownLabelShadow 1 0
 }
 
 event HudTournament_HideTimer
 {
-SetVisible CountdownBG 0 0
-SetVisible CountdownLabel 0 0
-SetVisible CountdownLabelShadow 0 0
+	SetVisible CountdownBG 0 0
+	SetVisible CountdownLabel 0 0
+	SetVisible CountdownLabelShadow 0 0
 }
 
 event Hud_StatsAndMedals_Show
 {
-SetVisible	DrawingPanel	0	0
-SetVisible	WinPanelLogo	0	0
-SetVisible	StatsBgPanel	1	0
-SetVisible	StatsLabelPanel	1	0
-Animate StatsLabelPanel ypos 75 Accel 0 0.1
-Animate BlueMedals ypos 75 Accel 0 0.1
-Animate RedMedals ypos 75 Accel 0 0.1
+	SetVisible	DrawingPanel	0	0
+	SetVisible	WinPanelLogo	0	0
+	SetVisible	StatsBgPanel	1	0
+	SetVisible	StatsLabelPanel	1	0
+	Animate StatsLabelPanel ypos 75 Accel 0 0.1
+	Animate BlueMedals ypos 75 Accel 0 0.1
+	Animate RedMedals ypos 75 Accel 0 0.1
 }
 
 event WinPanel_CompPos
 {
-Animate WinPanel ypos 230 Linear 0 0
+	Animate WinPanel ypos "C0" Linear 0 0
 }
 
 event WinPanel_NormalPos
 {
-Animate WinPanel ypos 230 Linear 0 0
+	Animate WinPanel ypos "C0" Linear 0 0
 }
