@@ -3826,6 +3826,28 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		
+		"Symbols"
+		{
+			"1"
+			{
+				"name"	"Entypo"
+				"tall"	"25"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"SymbolsBigger"
+		{
+			"1"
+			{
+				"name"	"Entypo"
+				"tall"	"40"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
 	}
 
 	//
@@ -5425,8 +5447,12 @@ TFFatLineBorderClearBG
 		}
 		"17" 
 		{
-		"font" "resource/fonts/Garm3nFont.ttf"
-		"name" "Garm3nFont"
+			"font" "resource/fonts/Garm3nFont.ttf"
+			"name" "Garm3nFont"
+		}
+		"18"
+			"font" "resource/fonts/Entypo.otf"
+			"name"	"Entypo"
 		}
 	}
 }

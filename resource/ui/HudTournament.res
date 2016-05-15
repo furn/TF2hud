@@ -418,15 +418,17 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"HudTournamentBG"
 		"xpos"			"0"
-		"ypos"			"21"
+		"ypos"			"26"
 		"zpos"			"-2"
 		"wide"			"249"
-		"tall"			"8"
-		"fillcolor"		"0 0 0 100"
-		"autoResize"		"0"
+		"tall"			"6"
+		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
+		"tabPosition"	"0"	
+		"fillcolor"		"234 234 234 255"
+		"PaintBackgroundType"	"0"
 
 		if_mvm
 		{
@@ -487,7 +489,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"BlueBG"
 		"xpos"			"0"
-		"ypos"			"30"
+		"ypos"			"33"
 		"zpos"			"-1"
 		"wide"			"16"
 		"tall"			"16"
@@ -526,7 +528,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BlueBGShade"
 		"xpos"			"0"
-		"ypos"			"30"
+		"ypos"			"33"
 		"zpos"			"-2"
 		"wide"			"16"
 		"tall"			"16"
@@ -561,7 +563,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBarBlue"
 		"xpos"			"17"
-		"ypos"			"30"
+		"ypos"			"33"
 		"zpos"			"-1"
 		"wide"			"107"
 		"tall"			"16"
@@ -597,7 +599,7 @@
 		"fieldName"		"TournamentBLUELabel"
 		"font"			"Museo12"
 		"xpos"			"19"
-		"ypos"			"30"
+		"ypos"			"33"
 		"zpos"			"2"
 		"wide"			"65"
 		"tall"			"17"
@@ -633,7 +635,7 @@
 		"fieldName"		"TournamentBLUEStateLabel"
 		"font"			"Medium8"
 		"xpos"			"55"
-		"ypos"			"31"
+		"ypos"			"34"
 		"zpos"			"1"
 		"wide"			"66"
 		"tall"			"14"
@@ -668,7 +670,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBarRed"
 		"xpos"			"125"
-		"ypos"			"30"
+		"ypos"			"33"
 		"zpos"			"-1"
 		"wide"			"107"
 		"tall"			"16"
@@ -705,7 +707,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"RedBG"
 		"xpos"			"233"
-		"ypos"			"30"
+		"ypos"			"33"
 		"zpos"			"-1"
 		"wide"			"16"
 		"tall"			"16"
@@ -742,7 +744,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RedBGShade"
 		"xpos"			"233"
-		"ypos"			"30"
+		"ypos"			"33"
 		"zpos"			"-2"
 		"wide"			"16"
 		"tall"			"16"
@@ -778,7 +780,7 @@
 		"fieldName"		"TournamentREDLabel"
 		"font"			"Museo12"
 		"xpos"			"164"
-		"ypos"			"30"
+		"ypos"			"33"
 		"zpos"			"2"
 		"wide"			"66"
 		"tall"			"17"
@@ -814,7 +816,7 @@
 		"fieldName"		"TournamentREDStateLabel"
 		"font"			"Medium8"
 		"xpos"			"129"
-		"ypos"			"31"
+		"ypos"			"34"
 		"zpos"			"1"
 		"wide"			"65"
 		"tall"			"14"
@@ -849,7 +851,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBarConditions"
 		"xpos"			"0"
-		"ypos"			"47"
+		"ypos"			"50"
 		"zpos"			"-1"
 		"wide"			"249"
 		"tall"			"8"
@@ -887,7 +889,7 @@
 		"font"			"Museo8"
 		"fgcolor"		"32 32 32 255"
 		"xpos"			"0"
-		"ypos"			"45"
+		"ypos"			"48"
 		"zpos"			"1"
 		"wide"			"250"
 		"tall"			"12"
@@ -964,13 +966,13 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"Museo12"
-		"fgcolor"		"TanLight"
+		"font"			"Museo8"
+		"fgcolor"		"Black"
 		"xpos"			"0"
-		"ypos"			"55"
+		"ypos"			"22"
 		"wide"			"249"
 		"tall"			"15"
-		"zpos"			"1"
+		"zpos"			"5"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -981,7 +983,7 @@
 
 		if_mvm
 		{
-			"font"			"Museo16"
+			"font"			"Museo12"
 			"xpos"			"155"
 			"ypos"			"100"
 			"wide"			"190"
@@ -991,7 +993,7 @@
 	
 		if_competitive
 		{
-			"font"			"Museo16"
+			"font"			"Museo12"
 			"xpos"			"cs-0.5"
 			"ypos"			"110"
 			"wide"			"190"
@@ -1001,7 +1003,7 @@
 
 		if_readymode
 		{
-			"font"			"Museo16"
+			"font"			"Museo8"
 			"xpos"			"225"
 			"ypos"			"110"
 			"wide"			"190"
@@ -1014,7 +1016,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabelShadow"
-		"font"			"Museo16"
+		"font"			"Museo12"
 		"xpos"			"0"
 		"ypos"			"54"
 		"wide"			"190"
@@ -1030,7 +1032,7 @@
 		
 		if_mvm
 		{
-			"font"			"Museo16"
+			"font"			"Museo12"
 			"xpos"			"156"
 			"ypos"			"106"
 			"wide"			"190"
@@ -1041,7 +1043,7 @@
 		
 		if_competitive
 		{
-			"font"			"Museo16"
+			"font"			"Museo12"
 			"xpos"			"cs-0.5"
 			"ypos"			"111"
 			"wide"			"190"
@@ -1052,9 +1054,10 @@
 
 		if_readymode
 		{
-			"font"			"Museo16"
+			"font"			"Museo12"
 			"xpos"			"226"
 			"ypos"			"111"
+			"zpos"			"1"
 			"wide"			"190"
 			"tall"			"15"
 			"visible"		"1"
