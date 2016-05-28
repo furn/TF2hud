@@ -225,14 +225,14 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c-28"
+		"xpos"				"c-38"
 		"ypos"				"0"	[$WIN32]
 		"zpos"				"2"
-		"wide"				"56"
+		"wide"				"76"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"c-28"	[$WIN32]
+		"delta_item_x"			"10"	[$WIN32]
 		"delta_item_start_y"	"25"
 		"delta_item_end_y"		"45"
 		"PositiveColor"			"0 255 0 255"
@@ -247,7 +247,7 @@
 			"zpos"					"2"
 			"wide"					"80"
 			"tall"					"150"
-			"delta_item_x"			"c-28"	
+			"delta_item_x"			"12"	
 			"delta_item_start_y"	"26"
 			"delta_item_end_y"		"36"
 			"PositiveColor"			"0 255 0 255"
@@ -262,7 +262,7 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"Museo16"
 			"fgcolor"		"234 234 234 255"
-			"xpos"			"0"
+			"xpos"			"10"
 			"ypos"			"-7"
 			"zpos"			"3"
 			"wide"			"56"

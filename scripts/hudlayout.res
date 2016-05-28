@@ -404,9 +404,9 @@
         "fieldName" "HudKothTimeStatus"
         "visible" "1"
         "enabled" "1"
-        "xpos"  "c-58"
+        "xpos"  "c-68"
         "ypos"  "0"
-        "wide"  "112"
+        "wide"  "132"
         "tall"  "60"
         
         "blue_active_xpos"          "-58"

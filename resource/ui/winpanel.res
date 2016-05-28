@@ -327,7 +327,7 @@
 		"fieldName"		"DetailsLabel"
 		"font"			"Museo8"
 		"xpos"			"c-110"
-		"ypos"			"130"
+		"ypos"			"129"
 		"zpos"			"5"
 		"wide"			"220"
 		"tall"			"7"

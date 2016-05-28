@@ -33,23 +33,11 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"32 32 32 255"
 		"PaintBackgroundType"	"0"
-	}
-	"LeftSideBGShade"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"LeftSideBGShade"
-		"xpos"			"c-90"
-		"ypos"			"r23"
-		"zpos"			"0"
-		"wide"			"89"
-		"tall"			"16"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"	
-		"fillcolor"		"32 32 32 255"
-		"PaintBackgroundType"	"0"
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}
 	"LeftSideBG"
 	{
@@ -67,6 +55,11 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"32 32 32 255"
 		"PaintBackgroundType"	"0"
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}
 	"LeftSideTeamBG"
 	{
@@ -119,6 +112,11 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"32 32 32 255"
 		"PaintBackgroundType"	"0"
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}	
 	"RightSideBG"
 	{
@@ -136,6 +134,11 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"32 32 32 255"
 		"PaintBackgroundType"	"0"
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}	
 	"RightSideTeamBG"
 	{
@@ -404,7 +407,7 @@
 			"visible"	"0"
 		}
 	}	
-			
+
 	"PlayingToBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -456,26 +459,31 @@
 		
 		"if_hybrid_single"
 		{
-			"xpos"		"c-64"
-			"ypos"		"r60"
+			"xpos"		"c-80"
 		}
 		
 		"if_hybrid_double"
 		{
 			"xpos"		"c-115"
 		}
+
+		"if_specialdelivery"
+		{
+			"xpos"			"c-60"
+		}
 		
 		"if_no_flags"
 		{
 			"visible"	"0"
 		}
-
-		"if_specialdelivery"
+		
+		"if_mvm"
 		{
-			"visible"	"r100"
+			"ypos"	"r60"
+			"tall"	"110"
 		}
 	}
-			
+	
 	"RedFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
@@ -487,7 +495,7 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-				
+		
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -496,25 +504,25 @@
 		
 		"if_hybrid_single"
 		{
-			"xpos"		"c-64"
+			"xpos"		"c-80"
 		}
 		
 		"if_hybrid_double"
 		{
 			"xpos"		"c-45"
 		}
+
+		"if_specialdelivery"
+		{
+			"xpos"			"c-60"
+		}
 		
 		"if_no_flags"
 		{
 			"visible"	"0"
 		}
-
-		"if_specialdelivery"
-		{
-			"visible"	"r100"
-		}
 	}	
-			
+	
 	"CaptureFlag"
 	{
 		"ControlName"	"CTFArrowPanel"
@@ -531,10 +539,10 @@
 		{
 			"ypos"		"r100"
 		}
-
+		
 		"if_specialdelivery"
 		{
-			"visible"	"r100"
+			"ypos"		"r54"
 		}
 	}
 	
