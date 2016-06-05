@@ -1,7 +1,7 @@
 # "Ace" hud
-This was the most up to date version of Hudas Iscariote (original edit by Mangachu then maintained by Aegis.) As the original HUD developer stopped work I have to decided to finish this HUD and maintain it.
+An experimental HUD repository which when stable is sent to the stable repository.
 
-#To Do List
+#Known Issues/Things To Fix
 
 Fix DegrootKeep Gamemode 
 
@@ -19,7 +19,8 @@ Finish Comp Mode
 
 Update ClientScheme (Fix Colors)
 
-#Edit the hudlayout.res to your liking. The Fog crosshair "2" is enabled by default, so make sure to use crosshair 0 in TF2.  
+
+Edit the hudlayout.res to your liking. The Fog crosshair "2" is enabled by default, so make sure to use crosshair 0 in TF2.  
 
 The included scoreboards are:
 * 16v16 for pubs 
