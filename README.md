@@ -3,7 +3,7 @@ This was the most up to date version of Hudas Iscariote (original edit by Mangac
 
 #To Do List
 
-Fix Active Timer
+Fix DegrootKeep Gamemode 
 
 Remove Sentry Icon On CSpectatorTargetID And CSecondaryTargetID
 
@@ -19,7 +19,7 @@ Finish Comp Mode
 
 Update ClientScheme (Fix Colors)
 
-Edit the hudlayout.res to your liking. The Fog crosshair "2" is enabled by default, so make sure to use crosshair 0 in TF2.  
+#Edit the hudlayout.res to your liking. The Fog crosshair "2" is enabled by default, so make sure to use crosshair 0 in TF2.  
 
 The included scoreboards are:
 * 16v16 for pubs 
