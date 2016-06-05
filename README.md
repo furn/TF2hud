@@ -2,12 +2,22 @@
 This was the most up to date version of Hudas Iscariote (original edit by Mangachu then maintained by Aegis.) As the original HUD developer stopped work I have to decided to finish this HUD and maintain it.
 
 #To Do List
+
 Fix Active Timer
+
 Remove Sentry Icon On CSpectatorTargetID And CSecondaryTargetID
+
+Fix TargetID Border Chopped Of
+
 Fix Icons On The Main Menu
+
 Add Back The Original Boxs Around Health And Ammo
+
 Add Option For Player Model
+
 Finish Comp Mode
+
+Update ClientScheme (Fix Colors)
 
 Edit the hudlayout.res to your liking. The Fog crosshair "2" is enabled by default, so make sure to use crosshair 0 in TF2.  
 
