@@ -279,8 +279,8 @@
 				"xpos"			"32"
 				"ypos"			"8"
 				"zpos"			"0"
-				"wide"			"12"
-				"tall"			"12"
+				"wide"			"16"
+				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"0"
@@ -297,8 +297,8 @@
 				{
 					"xpos"			"30"
 					"ypos"			"7"
-					"wide"			"p0.21"
-					"tall"			"p0.34"
+					"wide"			"16"
+					"tall"			"16"
 					"proportionaltoparent" "1"
 					"visible"		"1"
 				}

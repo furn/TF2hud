@@ -32,13 +32,14 @@
 			{
 				"wide"				"40"
 				"font"			"Museo16"
+				"xpos"			"0"
 				"ypos"			"9"
 			}
 		}
 		
 		if_comp
 		{
-			"xpos"				"18"
+			"xpos"				"28"
 			"wide"				"40"
 		}
 	}
@@ -75,13 +76,14 @@
 			{
 				"wide"				"40"
 				"font"			"Museo16"
+				"xpos"			"0"
 				"ypos"			"9"
 			}
 		}
 		
 		if_comp
 		{
-			"xpos"				"58"
+			"xpos"				"68"
 			"wide"				"40"
 		}	
 	}
