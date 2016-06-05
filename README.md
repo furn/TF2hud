@@ -1,7 +1,15 @@
 # "Ace" hud
-Re-edit of Hudas Iscariote with several modifications for Team Fortress 2. Original edit by Mangachu.
+This was the most up to date version of Hudas Iscariote (original edit by Mangachu then maintained by Aegis.) As the original HUD developer stopped work I have to decided to finish this HUD and maintain it.
 
-Edit the hudlayout.res to your liking. The Fog crosshair "2" is enabled by default, so make sure to use crosshair 0 in TF2. There is currently very little customizability due to this project being a personal HUD. 
+#To Do List
+Fix Active Timer
+Remove Sentry Icon On CSpectatorTargetID And CSecondaryTargetID
+Fix Icons On The Main Menu
+Add Back The Original Boxs Around Health And Ammo
+Add Option For Player Model
+Finish Comp Mode
+
+Edit the hudlayout.res to your liking. The Fog crosshair "2" is enabled by default, so make sure to use crosshair 0 in TF2.  
 
 The included scoreboards are:
 * 16v16 for pubs 
@@ -14,7 +22,7 @@ Included crosshairs:
 * Fog Crosshairs
 * Garm3n crosshairs
 
-This HUD is intended for 1920x1080. Your results may vary for other resolutions.
+This HUD is intended for 16:9. Clipping and overlaping happens on 4:3, it is also suggested to change the sizes of the crosshairs as they are very big on 4:3 screens.
 
 ------
 
@@ -29,3 +37,5 @@ The current release features a fixed winpanel.res for servers with supplemental 
 07/03/2016 - Updated HUD for Matchmaking.
 
 03/05/2016 - Most issues fixed (Thank you to Winterzduck)
+
+28/05/2016 - Most issues fixed
