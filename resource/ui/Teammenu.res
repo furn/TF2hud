@@ -898,10 +898,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HighlanderLabel"
-		"xpos"			"c-150"
-		"ypos"			"100"
+		"xpos"			"c-57"
+		"ypos"			"280"
 		"zpos"			"6"
-		"wide"			"105"
+		"wide"			"115"
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -911,7 +911,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CapPlayerFont"
+		"font"			"Museo15"
 		"fgcolor"		"HudOffWhite"
 		"centerwrap"	"1"
 	}
@@ -920,10 +920,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HighlanderLabelShadow"
-		"xpos"			"c-149"
-		"ypos"			"101"
+		"xpos"			"c-56"
+		"ypos"			"281"
 		"zpos"			"6"
-		"wide"			"105"
+		"wide"			"115"
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -933,8 +933,8 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CapPlayerFont"
-		"fgcolor"		"black"
+		"font"			"Museo15"
+		"fgcolor"		"0 0 0 255"
 		"centerwrap"	"1"
 	}
 	

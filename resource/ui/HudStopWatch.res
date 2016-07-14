@@ -37,6 +37,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		if_match
+		{
+			"xpos"	"c-180"
+		}
 	}
 
 	"TimeBG"
@@ -53,6 +58,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		if_match
+		{
+			"xpos"	"c90"
+		}
 	}
 
 	"StopWatchImageCaptureTime"
@@ -76,7 +86,7 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c31h"
+		"xpos"				"c31"
 		"ypos"				"-50"	
 		"zpos"				"4"
 		"wide"				"f0"
@@ -98,7 +108,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
-		}	
+		}
+		
+		if_match
+		{
+			"xpos"	"c90"
+		}
 	}
 
 	"StopWatchScoreToBeat"

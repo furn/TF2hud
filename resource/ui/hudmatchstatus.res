@@ -1,8 +1,8 @@
-"Resource/UI/Competitive.res"
+"Resource/UI/HudMatchStatus.res"
 {
 	"HudMatchStatus"
 	{
-		"fieldName"		"RoundSignModel"
+		"fieldName"		"HudMatchStatus"
 		"avatar_width"	"63"
 		"spacer"		"5"
 		"name_width"	"57"
@@ -27,7 +27,7 @@
 		
 		"model"
 		{
-			"modelname"	"models/props_ui/round_banner.mdl"
+			"modelname"	"models/props_ui/banner.mdl"
 			"skin"		"0"
 			"angles_x"	"30"
 			"angles_y"	"180"
@@ -216,37 +216,48 @@
 		"zpos"				"0"
 		"wide"				"0"	//365
 		"tall"				"0"	//28
-
+		"visible"			"0"
+	
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
+		
+		if_match
+		{
+			"visible"		"1"
+		}
 	}
 
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"0"
+		"xpos"				"c-38"
 		"ypos"				"0"	[$WIN32]
 		"zpos"				"2"
-		"wide"				"f0"
+		"wide"				"76"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"c-27"	[$WIN32]
-		"delta_item_start_y"	"50"
-		"delta_item_end_y"		"70"
+		"delta_item_x"			"10"	[$WIN32]
+		"delta_item_start_y"	"25"
+		"delta_item_end_y"		"45"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"Museo16"
 
-		if_comp
+		if_match
 		{
-			"delta_item_x"			"c-27"	
+			"xpos"					"c-40"
+			"ypos"					"0"
+			"zpos"					"2"
+			"wide"					"80"
+			"tall"					"150"
+			"delta_item_x"			"12"	
 			"delta_item_start_y"	"26"
 			"delta_item_end_y"		"36"
-			"PositiveColor"			"Garm3nGreen"
-			"NegativeColor"			"Garm3nRed"
+			"PositiveColor"			"0 255 0 255"
+			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
 			"delta_item_font"		"Museo16"
 		}
@@ -257,7 +268,7 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"Museo16"
 			"fgcolor"		"234 234 234 255"
-			"xpos"			"c-27"
+			"xpos"			"10"
 			"ypos"			"-7"
 			"zpos"			"3"
 			"wide"			"56"
@@ -267,7 +278,7 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 
-			if_comp
+			if_match
 			{
 				"proportionaltoparent"	"1"
 
@@ -554,6 +565,12 @@
 		"tall"			"260"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		if_large
+		{
+			"ypos"			"65"
+			"tall"			"385"
+		}
 
 		"BlueTeamBG"
 		{
@@ -647,6 +664,11 @@
 			"linespacing"	"26"
 			"linegap"		"4"
 			//"show_columns"	"1"
+			
+			if_large
+			{
+				"tall"			"315"
+			}
 		}
 		"BluePlayerListBG"
 		{
@@ -662,6 +684,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
+			
+			if_large
+			{
+				"tall"			"325"
+			}
 		}
 	}
 
@@ -676,6 +703,12 @@
 		"tall"			"260"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		if_large
+		{
+			"ypos"			"65"
+			"tall"			"385"
+		}
 
 		"RedTeamBG"
 		{
@@ -769,6 +802,11 @@
 			"linespacing"	"26"
 			"linegap"		"4"
 			//"show_columns"	"1"
+			
+			if_large
+			{
+				"tall"			"315"
+			}
 		}
 		"RedPlayerListBG"
 		{
@@ -784,6 +822,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
+			
+			if_large
+			{
+				"tall"			"325"
+			}
 		}
 	}
 }
