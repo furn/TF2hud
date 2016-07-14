@@ -4,26 +4,26 @@
 	{
 		"label" "BY QUARTZ AND SIR VILLETA
 				       Maintained by Aegis"
-		"command" "QUICKPLAY"
+		"command" "play_casual"
 	}
 	"QuickplayButton"
 	{
 		"label" "#MMenu_StartPlaying" 
-		"command" "quickplay"
+		"command" "play_casual"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
 	}
 	"QuickplayChangeButton"
 	{
 		"label" "#MMenu_NewGame" 
-		"command" "quickplay"
+		"command" "play_casual"
 		"subimage" "glyph_practice"
 		"OnlyInGame" "1"
 	}
 	"PlayPVEButton"
 	{
 		"label" "#MMenu_PlayCoop" 
-		"command" "playpve"
+		"command" "play_mvm"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
 	}
@@ -70,7 +70,7 @@
 	"Matchmaking"
 	{
 		"label" "MatchMaking"
-		"command" "ladder_ui_show"
+		"command" "play_competitive"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "0"
 	}

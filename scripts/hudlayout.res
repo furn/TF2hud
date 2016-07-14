@@ -1163,7 +1163,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"r165"
+		"ypos"					"c-10"
 		"wide"					"f0"
 		"tall"					"320"
     }

@@ -19,7 +19,7 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
 		
-		"if_comp"
+		"if_match"
 		{
 			"wide"	"80"
 			"xpos"	"0"
@@ -44,7 +44,7 @@
 		"fillcolor"		"32 32 32 255"
 		"PaintBackgroundType"	"0"
 		
-		"if_comp"
+		"if_match"
 		{
 			"wide"	"80"
 			"xpos"	"0"

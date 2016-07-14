@@ -28,7 +28,7 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 			
-			if_comp
+			if_match
 			{
 				"wide"				"40"
 				"font"			"Museo16"
@@ -37,7 +37,7 @@
 			}
 		}
 		
-		if_comp
+		if_match
 		{
 			"xpos"				"28"
 			"wide"				"40"
@@ -72,7 +72,7 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 		
-			if_comp
+			if_match
 			{
 				"wide"				"40"
 				"font"			"Museo16"
@@ -81,7 +81,7 @@
 			}
 		}
 		
-		if_comp
+		if_match
 		{
 			"xpos"				"68"
 			"wide"				"40"
@@ -101,7 +101,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 		
-		if_comp
+		if_match
 		{
 			"wide"	"40"
 			"ypos"	"30"
